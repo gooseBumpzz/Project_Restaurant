@@ -2,11 +2,11 @@ import "./styles.css";
 console.log("Hello friend. Your webpack bundler is working!")
 
 import { loadHome } from "./home.js";
-// loadHome ();
+loadHome ();
 import { loadMenu } from "./menu.js";
 // loadMenu();
 import { loadAbout } from "./about.js";
-loadAbout();
+// loadAbout();
 
 
 function wipeOut (){
