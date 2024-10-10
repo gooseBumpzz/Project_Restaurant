@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('fonts/Afacad_Flux/AfacadFlux-VariableFont_slnt\,wght.ttf') format('ttf');
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  * {
+    /* font-family: "MyFont"; */
+    font-family: 'MyFont', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  }
+
+
+/* Home Page */
+#content {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(food.jpg);
+    background-position: center; /* Center the image */
+    /* background-repeat: no-repeat; Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 36px;
+}
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.liText {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar:hover {
+    background-color: rgb(164, 164, 164);
+    cursor: pointer;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border-style: none;
+    background-color:rgb(255, 255, 255);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#orderBtn {
+    display: flex;
+    width: 200px;
+    height: 45px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 87, 28);
+    border-style: none;
+    border-radius: 5%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#orderBtnMenu {
+    width: 200px;
+    height: 45px;
+
+}
+
+#how {
+    padding-top: 50px;
+    margin-top: 80px;
+    border-top: solid 2px rgb(35, 87, 28);;
+}
+
+#inner-content {
+    display: flex;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    opacity: 95%;
+    width: 80vw;
+    /* height: 90%; */
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+#steps {
+    display: flex;
+    flex-flow: column;
+}
+
+#stepsIMG{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+#stepsText {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.imgs{
+    width: 180px;
+    height: 180px;
+    border-radius: 10%;
+}
+
+.paras{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#img0 {
+    background-image: url(meal.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+#img1 {
+    background-image: url(calendar.jpg);
+    background-position: center; 
+    background-size:cover;
+}
+
+#img2 {
+    background-image: url(microwaveSq.jpg);
+    background-position: center; 
+    background-size: cover;
+}
+
+/* Menu Page */
+
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    background-color: rgb(255, 255, 255);
+
+
+}
+.menuItems {
+    width: 300px;
+    height: 400px;
+    border: solid 2px black;
+    cursor: pointer;
+}
+
+
+
+.menuItems:hover {
+    border: solid 4px rgb(4, 56, 22);
+}
+
+.menuItems {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#hungry {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+.foodImg {
+    /* background-image: url(meal.jpg); */
+    background-position: center;
+    background-size: cover;
+    height: 66%;
+    width: 100%;
+    border-bottom: solid 2px black;
+}
+
+#foodImg0{
+    background-image: url(img/salmon.jpg);
+}
+#foodImg1{
+    background-image: url(img/ketosteak.jpg);
+}
+#foodImg2{
+    background-image: url(img/poke.jpg)
+}
+#foodImg3{
+    background-image: url(img/vegan.jpg);
+}
+#foodImg4{
+    background-image: url(img/pasta.jpg);
+}
+#foodImg5{
+    background-image: url(img/acai.jpg);
+}
+
+/* About Page */
+
+#aboutContainer {
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#contactUs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#midContainer {
+    display: flex;
+    height: 40%;
+}
+#midLeft {
+    height: 100%;
+    width: 50%;
+    background-image: url(img/support.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+#midRight {
+    height: 100%;
+    width: 50%;
+}
+
+.contactOptions {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 25%;
+}
+
+#bottomContainer {
+    display: flex;
+    height: 40%;
+    width: 80%;
+    margin: auto;
+}
+
+/* icons  */
+#bottom1 .contactTop1 {
+    background-image: url(img/email.svg);
+}
+
+#bottom2 .contactTop1 {
+    background-image: url(img/phone.svg);
+}
+
+
+#bottom3 .contactTop1 {
+    background-image: url(img/chat.svg);
+}
+
+#bottom4 .contactTop1 {
+    background-image: url(img/faq.svg);
+}
+
+.contactOptions > .contactTop1 {
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+/* text */
